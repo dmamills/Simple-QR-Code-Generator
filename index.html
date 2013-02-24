@@ -1,0 +1,86 @@
+
+<html>
+<head> 
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style> body {background-image:url('images/paper.png');} </style>
+  <title> QR Code Generator</title>
+</head>
+
+<body>
+
+<div id="pagewrap">
+	<h1>QR Code Maker</h1>
+
+	<div id="qrresult"></div></br>
+
+     Size:  <input type="text" id='inputsize' value='300'></br>
+		 <div id="tabs"> 
+		 	<ul>
+		 		<li><a href="#tab-1"> Text/URL </a></li>
+		 		<li><a href="#tab-2"> Text Message </a></li>
+		 		<li><a href="#tab-3"> meCard </a></li>
+		 		<li><a href="#tab-4"> Email </a></li>
+		 		<li><a href="#tab-5"> <img src="images/twittericon.png" width="16" height="16"> Tweet </a></li>
+		 	</ul>
+		 	 <div id="tab-1">
+				  <h3>Text/URL</h3>
+				 Message <input type='text' id='inputtext'></br>
+				  <input type='button' id='createtext' value='Create'>
+				 </p>	
+			</div>
+
+
+			 <div id="tab-2">
+				 <p>
+				  <h3>Text Message</h3>
+				 Phone # <input type='text' id='inputphone'></br>
+				 Message <input type='text' id='inputmsg'></br>
+				  <input type='button' id='createsms' value='Create'>
+				</p>
+			</div>
+
+
+			<div id="tab-3">
+				<p>
+				 <h3> meCard </h3>
+				 Name <input type='text' id='inputn'></br>
+				 Full Address <input type='text' id='inputadd'></br>
+				 Phone Number <input type='text' id='inputvphone'></br>
+				 Email <input type='text' id='inputvemail'></br>
+				 Website <input type='text' id='inputurl'> </br>
+				 <input type = 'button' id='createvcard' value='Create'>
+				</p>
+			</div>
+
+			<div id="tab-4">
+				<p>
+				 <h3> Email </h3>
+				 Email Address <input type='text' id='inputemail'></br>
+				 Subject <input type='text' id='inputsubject'></br>
+				 Body <input type='text' id='inputbody'></br>
+				 <input type='button' id='createemail' value='Create'>
+				</p>
+			</div>
+
+			<div id="tab-5">
+				<p>
+					<h3> Tweet </h3>
+			    	Note: Hashtags not currently working.</br>
+					Message <input type='text' id='inputtweet'></br>
+					<input type='button' id='createtweet' value='Create'>
+				</p>
+			</div>
+	</div>
+	<div id="footer"> A weekend project by <a href="http://about.me/danielmills">Daniel Mills</a> 2013. Background Provided by <a href="http://subtlepatterns.com">Subtle Patterns</a> </div>
+</div>
+
+
+
+</body>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script src="js/script.js"> </script>
+
+</html>

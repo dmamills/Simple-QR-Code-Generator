@@ -1,0 +1,38 @@
+body {
+background-image:url('paper.png');
+}
+
+body, #tabs {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#pagewrap {
+   width:800px;
+   margin: 0 auto;
+   background-color:white;
+   border: 1px solid lightgrey;
+   border-radius:25px;
+   padding:25px;
+}
+
+h1 {
+	text-align:center;
+}
+
+
+#qrresult {
+	text-align:center;
+	margin:0 auto;
+	border: 2px solid lightgrey; 
+	border-radius:15px; 
+	padding:5px; 
+	display: inline-block;
+}
+
+#footer {
+	margin-top:10px;
+}
+#footer a{
+
+	text-decoration: none;
+}
