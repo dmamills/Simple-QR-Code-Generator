@@ -7,3 +7,5 @@ Generates QR Codes for:
  - Tweets
  - meCards
  - Text Messages
+
+http://dmamills.github.com/Simple-QR-Code-Generator/
